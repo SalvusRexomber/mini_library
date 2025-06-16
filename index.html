@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Könyvtár</title>
+  <link rel="stylesheet" href="style.scss" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Könyvtár</h1>
+    <form id="book-form">
+      <input type="text" id="title" placeholder="Könyv címe" required />
+      <input type="text" id="author" placeholder="Szerző" required />
+      <input type="text" id="category" placeholder="Kategória" />
+      <label>
+        <input type="checkbox" id="read" /> Elolvasva
+      </label>
+      <button type="submit">Hozzáadás</button>
+    </form>
+    <div id="book-list"></div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
