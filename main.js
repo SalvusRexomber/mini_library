@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       form.reset();
       console.log(`Book with ID ${bookId} added to the library.`);
       renderLibrary();
+      console.log("Library rendered successfully.");
   });
   });
 
